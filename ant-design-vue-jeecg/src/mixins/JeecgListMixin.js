@@ -164,6 +164,7 @@ export const JeecgListMixin = {
     },
     handleDelete: function (id) {
       if(!this.url.delete){
+
         this.$message.error("请设置url.delete属性!")
         return
       }

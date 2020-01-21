@@ -1,5 +1,5 @@
 {
-  "name": "vue-antd-jeecg",
+  "name": "tet",
   "version": "2.1.0",
   "private": false,
   "scripts": {
@@ -14,7 +14,7 @@
     "@tinymce/tinymce-vue": "^2.0.0",
     "ant-design-vue": "^1.3.9",
     "apexcharts": "^3.6.5",
-    "axios": "^0.18.0",
+    "axios": "^0.18.1",
     "clipboard": "^2.0.4",
     "codemirror": "^5.46.0",
     "dayjs": "^1.8.0",
@@ -40,7 +40,8 @@
     "vue-splitpane": "^1.0.4",
     "vuedraggable": "^2.20.0",
     "vuex": "^3.0.1",
-    "vuex-class": "^0.3.1"
+    "vuex-class": "^0.3.1",
+    "webpack": "^4.41.0"
   },
   "devDependencies": {
     "@babel/polyfill": "^7.2.5",
@@ -51,8 +52,8 @@
     "babel-eslint": "^10.0.1",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.1.0",
-    "less": "^3.9.0",
-    "less-loader": "^4.1.0",
+    "less": "^3.10.3",
+    "less-loader": "^5.0.0",
     "node-sass": "^4.11.0",
     "sass-loader": "^7.0.1",
     "vue-template-compiler": "^2.6.10"
@@ -104,5 +105,20 @@
     "> 1%",
     "last 2 versions",
     "not ie <= 8"
-  ]
+  ],
+  "description": "Ant Design Jeecg Vue\r ====",
+  "main": "babel.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/changye98/ceshi.git"
+  },
+  "keywords": [
+    "zhaoyi3174377"
+  ],
+  "author": "chang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/changye98/ceshi/issues"
+  },
+  "homepage": "https://github.com/changye98/ceshi#readme"
 }
