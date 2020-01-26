@@ -45,6 +45,9 @@ public class ShiroConfig {
 		//cas验证登录
 		filterChainDefinitionMap.put("/cas/client/validateLogin", "anon");
 		// 配置不会被拦截的链接 顺序判断
+		filterChainDefinitionMap.put("/**", "anon"); //登录接口排除
+		filterChainDefinitionMap.put("/exam/**/", "anon"); //登录接口排除
+        filterChainDefinitionMap.put("/exam/**", "anon"); //登录接口排除
 		filterChainDefinitionMap.put("/login/**", "anon"); //登录接口排除
 		filterChainDefinitionMap.put("/sys/login", "anon"); //登录接口排除
 		filterChainDefinitionMap.put("/sys/logout", "anon"); //登出接口排除
@@ -106,7 +109,7 @@ public class ShiroConfig {
 		filterMap.put("jwt", new JwtFilter());
 		shiroFilterFactoryBean.setFilters(filterMap);
 		// <!-- 过滤链定义，从上向下顺序执行，一般将/**放在最为下边
-		filterChainDefinitionMap.put("/**", "jwt");
+//		filterChainDefinitionMap.put("/**", "jwt");
 
 		// 未授权界面返回JSON
 		shiroFilterFactoryBean.setUnauthorizedUrl("/sys/common/403");
