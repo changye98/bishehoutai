@@ -9236,9 +9236,9 @@ tinycolor2@^1.4.1:
   version "1.4.1"
   resolved "https://registry.npmjs.org/tinycolor2/-/tinycolor2-1.4.1.tgz#f4fad333447bc0b07d4dc8e9209d8f39a8ac77e8"
 
-tinymce@^5.0.2:
-  version "5.0.7"
-  resolved "https://registry.npmjs.org/tinymce/-/tinymce-5.0.7.tgz#60fced0f04a53f25702e37ba86c381d8d293f33a"
+tinymce@^5.0.2, tinymce@^5.7.1:
+  version "5.7.1"
+  resolved "https://registry.yarnpkg.com/tinymce/-/tinymce-5.7.1.tgz#658a6fb4c7d53a8496cc00f8da33f4b8290da06d"
 
 tmp@^0.0.33:
   version "0.0.33"
